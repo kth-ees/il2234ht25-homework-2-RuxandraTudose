@@ -1,2 +1,4 @@
 work
 *.tcl
+*.dbg
+*.wlf
