@@ -23,8 +23,7 @@ module LFSR_6bit_tb;
         for(int i = 0; i < 10; i++) begin
             for(int j = 0; j < 2; j++) begin 
                 sel = j;
-                //parallel_i0-n = $urandom;
-
+                //parallel_in = $urandom;
                 parallel_in = 6'b111111;
                 #10ns;
 
