@@ -18,7 +18,8 @@ always_ff @ (posedge clk or negedge rst_n) begin
         endcase    
     end
 end   
-
+//--- STRATEGY
+//shift the value and hardcode the XOR operation according to the schematic
 always_comb begin
   shift_value = {parallel_out[4:0], parallel_out[5]};
   shift_value[1] = shift_value[1] ^ parallel_out[5];
