@@ -1,0 +1,45 @@
+# //  Questa Sim-64
+# //  Version 2022.4 linux_x86_64 Oct 18 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do ./q2/simulate.tcl
+# QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+# Start time: 23:58:25 on Sep 20,2025
+# vlog -reportprogress 300 -sv ./q2/LFSR_6bit.sv 
+# -- Compiling module LFSR_6bit
+# 
+# Top level modules:
+# 	LFSR_6bit
+# End time: 23:58:25 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+# Start time: 23:58:25 on Sep 20,2025
+# vlog -reportprogress 300 -sv ./q2/LFSR_6bit_tb.sv 
+# -- Compiling module LFSR_6bit_tb
+# 
+# Top level modules:
+# 	LFSR_6bit_tb
+# End time: 23:58:25 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -debugDB work.LFSR_6bit_tb 
+# Start time: 23:58:25 on Sep 20,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.LFSR_6bit_tb(fast)
+# Loading work.LFSR_6bit(fast)
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+# ** Note: $stop    : ./q2/LFSR_6bit_tb.sv(34)
+#    Time: 400 ns  Iteration: 0  Instance: /LFSR_6bit_tb
+# Break in Module LFSR_6bit_tb at ./q2/LFSR_6bit_tb.sv line 34
+# End time: 00:36:49 on Sep 21,2025, Elapsed time: 0:38:24
+# Errors: 0, Warnings: 0
